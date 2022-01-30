@@ -1,0 +1,118 @@
+.bg-container {
+  padding: 40px;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding: 40px 70px 40px 70px;
+  }
+}
+.user-card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 40px 40px 40px 50px;
+  border-radius: 20px;
+}
+.user-name {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'roboto';
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .user-name {
+    text-align: left;
+    font-size: 32px;
+  }
+}
+.greeting {
+  font-size: 14px;
+  text-align: center;
+  font-family: 'roboto';
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .greeting {
+    text-align: left;
+    font-size: 18px;
+  }
+}
+.span-element {
+  color: #0b69ff;
+  font-weight: 600;
+}
+.money-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.form-container {
+  border: 1px solid #7e858e;
+  border-radius: 16px;
+  padding: 30px;
+}
+.transaction-heading {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: #1e293b;
+  margin: 0px 0px 20px 0px;
+}
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: #7e858e;
+}
+.input {
+  width: 250px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  padding: 5px 10px 5px 10px;
+  font-size: 16px;
+}
+.add-btn {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background-color: #0b69ff;
+  padding: 8px 20px 8px 20px;
+  font-size: 18px;
+  color: #fff;
+}
+.bottom-section-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .bottom-section-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+.list-headings-container {
+  display: flex;
+  align-items: center;
+  width: 350px;
+}
+.each-item {
+  width: 70px;
+  padding: 6px 0px 6px 10px;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'roboto';
+}
+@media screen and (min-width: 768px) {
+  .each-item {
+    width: 100px;
+  }
+}
+.transactions-history-container {
+  padding: 0px;
+  margin: 0px;
+}
+.transaction-list {
+  border: 1px solid #7e858e;
+}
